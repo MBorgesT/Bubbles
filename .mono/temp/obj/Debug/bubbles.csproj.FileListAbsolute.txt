@@ -1,0 +1,9 @@
+/home/matheus/Personal Projects/games/bubbles/.mono/temp/bin/Debug/bubbles.dll
+/home/matheus/Personal Projects/games/bubbles/.mono/temp/bin/Debug/bubbles.pdb
+/home/matheus/Personal Projects/games/bubbles/.mono/temp/obj/Debug/bubbles.csproj.AssemblyReference.cache
+/home/matheus/Personal Projects/games/bubbles/.mono/temp/obj/Debug/bubbles.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/Personal Projects/games/bubbles/.mono/temp/obj/Debug/bubbles.AssemblyInfoInputs.cache
+/home/matheus/Personal Projects/games/bubbles/.mono/temp/obj/Debug/bubbles.AssemblyInfo.cs
+/home/matheus/Personal Projects/games/bubbles/.mono/temp/obj/Debug/bubbles.csproj.CoreCompileInputs.cache
+/home/matheus/Personal Projects/games/bubbles/.mono/temp/obj/Debug/bubbles.dll
+/home/matheus/Personal Projects/games/bubbles/.mono/temp/obj/Debug/bubbles.pdb

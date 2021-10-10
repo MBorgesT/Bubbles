@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cjNVfXb2P/epOds3cVyYLtROhuAnVKsI8Jp0ZXzacQ0AnrCOqXXcLPHxr3Zi4v0oSJYNs/H7Fh99JYV0gKWnVA==",
+  "dgSpecHash": "9pWwYSk73vR3MDlbExl/PItRsp+0WR2I6irXjMuRXLZD6peWdkiC1j3qX//43CIdakYCeqEJSL2FLTkxsP3zfA==",
   "success": true,
-  "projectFilePath": "/home/matheus/Personal Projects/games/bubbles/viva-a-democracia.csproj",
+  "projectFilePath": "/home/matheus/Personal Projects/games/bubbles/bubbles.csproj",
   "expectedPackageFiles": [
     "/home/matheus/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/microsoft.netframework.referenceassemblies.net472.1.0.0.nupkg.sha512"

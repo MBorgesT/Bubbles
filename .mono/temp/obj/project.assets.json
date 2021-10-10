@@ -420,9 +420,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/matheus/Personal Projects/games/bubbles/viva-a-democracia.csproj",
-      "projectName": "viva-a-democracia",
-      "projectPath": "/home/matheus/Personal Projects/games/bubbles/viva-a-democracia.csproj",
+      "projectUniqueName": "/home/matheus/Personal Projects/games/bubbles/bubbles.csproj",
+      "projectName": "bubbles",
+      "projectPath": "/home/matheus/Personal Projects/games/bubbles/bubbles.csproj",
       "packagesPath": "/home/matheus/.nuget/packages/",
       "outputPath": "/home/matheus/Personal Projects/games/bubbles/.mono/temp/obj/",
       "projectStyle": "PackageReference",

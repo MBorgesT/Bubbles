@@ -1,6 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viva-a-democracia", "viva-a-democracia.csproj", "{791B6599-C4FC-43C4-AAEA-FD4AAC592DD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bubbles", "bubbles.csproj", "{791B6599-C4FC-43C4-AAEA-FD4AAC592DD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
