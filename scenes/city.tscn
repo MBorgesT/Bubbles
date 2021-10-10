@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://assets/city/city-background-short-ph.png" type="Texture" id=1]
 [ext_resource path="res://assets/character/character.png" type="Texture" id=2]
@@ -6,6 +6,11 @@
 [ext_resource path="res://assets/npc1/npc1.png" type="Texture" id=4]
 [ext_resource path="res://scripts/City.cs" type="Script" id=5]
 [ext_resource path="res://assets/Pixeled.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://assets/selection-outline.png" type="Texture" id=7]
+
+[sub_resource type="DynamicFont" id=2]
+size = 8
+font_data = ExtResource( 6 )
 
 [sub_resource type="DynamicFont" id=1]
 size = 10
@@ -17,6 +22,7 @@ script = ExtResource( 5 )
 [node name="background" type="TextureRect" parent="."]
 margin_right = 1000.0
 margin_bottom = 360.0
+rect_pivot_offset = Vector2( 344, 144 )
 texture = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -37,9 +43,77 @@ position = Vector2( 24, 272 )
 texture = ExtResource( 2 )
 
 [node name="text-node" type="Node2D" parent="."]
+visible = false
+
+[node name="yes-panel" type="Panel" parent="text-node"]
+margin_left = 144.0
+margin_top = 120.0
+margin_right = 312.0
+margin_bottom = 144.0
+rect_pivot_offset = Vector2( -208, 0 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="yes-label" type="Label" parent="text-node"]
+margin_left = 152.0
+margin_top = 120.0
+margin_right = 304.0
+margin_bottom = 144.0
+custom_fonts/font = SubResource( 2 )
+text = "YES"
+align = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="yes-outline" type="TextureRect" parent="text-node"]
+visible = false
+margin_left = 144.0
+margin_top = 120.0
+margin_right = 312.0
+margin_bottom = 144.0
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="no-panel" type="Panel" parent="text-node"]
+margin_left = 328.0
+margin_top = 120.0
+margin_right = 496.0
+margin_bottom = 144.0
+rect_pivot_offset = Vector2( -208, 0 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="no-label" type="Label" parent="text-node"]
+margin_left = 336.0
+margin_top = 120.0
+margin_right = 488.0
+margin_bottom = 144.0
+custom_fonts/font = SubResource( 2 )
+text = "NO"
+align = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="no-outline" type="TextureRect" parent="text-node"]
+visible = false
+margin_left = 328.0
+margin_top = 120.0
+margin_right = 496.0
+margin_bottom = 144.0
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="text-panel" type="Panel" parent="text-node"]
-visible = false
 margin_left = 144.0
 margin_top = 16.0
 margin_right = 496.0
@@ -49,7 +123,6 @@ __meta__ = {
 }
 
 [node name="text-area" type="Label" parent="text-node"]
-visible = false
 margin_left = 152.0
 margin_top = 24.0
 margin_right = 488.0
