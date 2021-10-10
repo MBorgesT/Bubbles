@@ -1,0 +1,11 @@
+using Godot;
+using System;
+
+public class NPC1 : Interactive
+{
+    public override void _Ready()
+    {
+        MAX_DISTANCE = (float)40;
+    }
+
+}
